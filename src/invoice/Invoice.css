@@ -1,0 +1,110 @@
+.invoice {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .invoice h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  .invoice p {
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
+  .invoice .header-section,
+  .invoice .details-section {
+    margin-bottom: 20px;
+  }
+  
+  .invoice .details-section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .invoice .signature-section {
+    text-align: right;
+    margin-top: 30px;
+  }
+  
+  .invoice .signature-section img {
+    width: 150px;
+    margin-top: -20px;
+  }
+  
+  .invoice .amount-in-words,
+  .invoice .total-amount {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .invoice .total-amount {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .ant-table {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .ant-table-thead > tr > th {
+    background: #f0f0f0;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .ant-table-tbody > tr > td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .amount-in-words,
+  .total-amount {
+    text-align: right;
+  }
+  
+  .amount-in-words p,
+  .total-amount p {
+    margin: 0;
+  }
+  
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .header-section img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .header-section .left,
+  .header-section .right {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+  
+  .header-section .right {
+    text-align: right;
+  }
+  
+  .header-section h2,
+  .header-section p {
+    margin: 0;
+  }
+  

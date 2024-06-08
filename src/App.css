@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+.invoice-form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e8e8e8;
+  font-family: 'Arial', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title {
+  margin-top: 24px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #1890ff;
+  border-bottom: 2px solid #1890ff;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ant-form-item {
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ant-form-item-label > label {
+  font-weight: 600;
+  color: #333333;
+}
+
+.ant-input,
+.ant-input-number,
+.ant-picker {
+  height: 40px;
+  font-size: 16px;
+}
+
+.ant-input:hover,
+.ant-input-number:hover,
+.ant-picker:hover,
+.ant-input:focus,
+.ant-input-number:focus,
+.ant-picker:focus {
+  border-color: #1890ff;
+  box-shadow: 0 0 8px rgba(24, 144, 255, 0.2);
+}
+
+.ant-btn-primary {
+  width: 100%;
+  background-color: #1890ff;
+  border-color: #1890ff;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.ant-btn-dashed {
+  border-color: #1890ff;
+  font-size: 16px;
+  height: 45px;
+}
+
+.ant-btn-dashed:hover,
+.ant-btn-dashed:focus {
+  color: #1890ff;
+  border-color: #40a9ff;
+}
+
+.item-space {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+.remove-icon {
+  font-size: 20px;
+  color: #ff4d4f;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.remove-icon:hover {
+  color: #ff7875;
+}
+
+.submit-button {
+  margin-top: 20px;
+  background-color: #52c41a;
+  border-color: #52c41a;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  background-color: #73d13d;
+  border-color: #73d13d;
+}
+
+.print-button {
+  margin-top: 20px;
+  background-color: #ffec3d;
+  border-color: #ffec3d;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.print-button:hover,
+.print-button:focus {
+  background-color: #fff566;
+  border-color: #fff566;
 }
